@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DC20A14-6FCA-CF9D-2F9C-9BF8A0AB891A" name="MOTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 11:47:19 UTC</createdTime>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_moto" id="ACA03373-4546-ED63-B79F-262B391F632C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 12:09:03 UTC</createdTime>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="2114FEFC-4954-19E6-C42A-96B9796AC91B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 12:09:05 UTC</createdTime>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="DA18F7EE-6892-7ABD-905C-06093F8153E8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 12:09:15 UTC</createdTime>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_patio" id="D0AA41B6-4058-488D-2CE5-38C9687A6249">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 12:39:03 UTC</createdTime>
+<generatorID>795F88E5-8A28-802D-9283-CBC99679BC9E</generatorID>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<referedAttribute>87375A34-41C1-98E4-759B-2344D314FA70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_uwb" id="E1A33B63-8140-4043-4A0F-8203A21DA7AE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 12:40:37 UTC</createdTime>
+<generatorID>4F2358A2-8956-2C80-E6B6-86E382FEEE83</generatorID>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<referedAttribute>8756835B-19BF-72A9-BF40-52069F88AD10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_condicao" id="3B845072-0949-3DFA-AE0C-1D41FDE18C0F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 12:41:17 UTC</createdTime>
+<generatorID>3316EB21-7920-A61A-8B59-B94E5309DD5F</generatorID>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<referedAttribute>6BFE573E-E983-A02A-EA05-53AE0CC581FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C398F4B-5790-2323-270F-35E4BCAD05C0" name="MOTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 12:11:41 UTC</createdTime>
+<ownerDesignName>modelo-logico</ownerDesignName>
+<engineerTo>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACA03373-4546-ED63-B79F-262B391F632C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
