@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D679669-0679-D591-73E8-74FC5493EFAA" containerWithKeyObject="9DBE4D15-5D56-E8A1-7C68-64A2B4477DB8" localFKIndex="DC665F16-7F39-DEE6-0091-842660FCFF70" name="PATIO_FILIAL_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>CD384301-8710-0EB6-E014-2F65B8F871B4</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<referredTableLongName>FILIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21A4B3A3-A915-1B58-F3EC-D97DEE11BD6F</referredTableID>
+<keyObject>0EF1612C-2AA5-946D-6FC4-162ABB37EFAB</keyObject>
+<referredKeyID>0EF1612C-2AA5-946D-6FC4-162ABB37EFAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_filial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

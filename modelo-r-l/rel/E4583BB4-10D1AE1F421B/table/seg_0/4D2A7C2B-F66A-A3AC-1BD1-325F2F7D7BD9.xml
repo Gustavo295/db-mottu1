@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D2A7C2B-F66A-A3AC-1BD1-325F2F7D7BD9" name="LOCALIZACAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>F7271804-BDFB-38A2-2731-1C61381A5176</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_localizacao" id="F17CEC24-5BDE-F2A1-06DA-CEC1E44D0581">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>3FD96EB5-C5D9-5BD1-5303-16F7223F569E</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="0074A18F-93DB-FEB8-C343-4C2432E3713B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>0118F803-4018-F8A3-19BE-394BC74E7F37</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="x_coord" id="D0491CAC-0522-DACA-523B-7DD53486F8CB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>4C92680E-0206-400C-2443-92C4D85848F2</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="y_coord" id="FD985BC4-A1CE-1626-6A03-EF53970EA094">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>78068E38-98FE-30B2-ED2B-A58DA4DAF069</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UWB_id_uwb" id="74665EEA-CDB1-8B7D-373D-08D97F177AD6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>AED1436C-543C-5313-77E5-9D224BDBE7F3</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D72AB2CB-6D0A-47AD-9758-D6D4DDBC3655" referredColumn="C43B978A-2DCC-8305-93AD-84EB81F6641E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FCE4C84-E4FE-C06D-0E41-0C810AB737C1" name="LOCALIZACAO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>A2AB3F27-09E8-F102-3680-28E2BF2A0D53</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F17CEC24-5BDE-F2A1-06DA-CEC1E44D0581"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5ED731F-9281-E36C-2799-D4966571A100" name="LOCALIZACAO__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="74665EEA-CDB1-8B7D-373D-08D97F177AD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F425EEB-7DFA-0B64-972B-6043D66BCE07" name="LOCALIZACAO_UWB_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74665EEA-CDB1-8B7D-373D-08D97F177AD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

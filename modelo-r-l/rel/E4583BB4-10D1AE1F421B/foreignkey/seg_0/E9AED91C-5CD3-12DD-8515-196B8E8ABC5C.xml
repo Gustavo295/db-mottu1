@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9AED91C-5CD3-12DD-8515-196B8E8ABC5C" containerWithKeyObject="F1B6154E-304E-5CBF-0BA5-ADE66021A9FA" localFKIndex="74A8D997-200E-3881-E564-7F5919054343" name="MOTO_CONDICAO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>3316EB21-7920-A61A-8B59-B94E5309DD5F</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<referredTableLongName>CONDICAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>226ED758-A210-3766-0BA2-F7364A8A4DF7</referredTableID>
+<keyObject>45D9C75D-A5B5-6055-A93B-70B6B1E362E3</keyObject>
+<referredKeyID>45D9C75D-A5B5-6055-A93B-70B6B1E362E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_condicao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

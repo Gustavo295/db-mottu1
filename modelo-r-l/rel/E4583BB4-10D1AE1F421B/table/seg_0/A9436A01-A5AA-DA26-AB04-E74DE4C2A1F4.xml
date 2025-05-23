@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9436A01-A5AA-DA26-AB04-E74DE4C2A1F4" name="UWB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>715808B5-B4A1-48D9-09B9-2D3AA0C43776</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_uwb" id="C43B978A-2DCC-8305-93AD-84EB81F6641E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>8756835B-19BF-72A9-BF40-52069F88AD10</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="FAB7EDCB-5895-9738-7C38-94B7B64DD1A7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>A2C5C73D-3A87-96EA-3C4F-13E75BEDCD8F</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="152A5A02-1F80-2F36-2015-0877854C9E08">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>E9AE5EBC-A989-C355-B95C-96767DC036C5</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIZACAO_id_localizacao" id="E2B5130C-B33E-53D3-0F97-E596D06989D8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>6690F09B-2BC1-FC50-7C03-B51F1FFFE958</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AF5C10A-E3DD-90E5-771C-4574ADDC323F" referredColumn="F17CEC24-5BDE-F2A1-06DA-CEC1E44D0581"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DA03187-3313-7606-3E3C-BAB20E129506" name="UWB_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>09A96941-A795-7526-C4B7-149F7B008836</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C43B978A-2DCC-8305-93AD-84EB81F6641E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="763A6DED-B5F0-A904-E1DA-4316573AE0D0" name="UWB__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E2B5130C-B33E-53D3-0F97-E596D06989D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A28A6A83-30B3-153C-7164-C9EC02E1ADDF" name="UWB_LOCALIZACAO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B5130C-B33E-53D3-0F97-E596D06989D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9FA70DCF-E070-D5C4-6C48-A981A9471D90" containerWithKeyObject="F1B6154E-304E-5CBF-0BA5-ADE66021A9FA" localFKIndex="8F2CE77F-D64D-FD88-1E07-67245040BD6A" name="MOTO_UWB_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>4F2358A2-8956-2C80-E6B6-86E382FEEE83</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<referredTableLongName>UWB</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9436A01-A5AA-DA26-AB04-E74DE4C2A1F4</referredTableID>
+<keyObject>0DA03187-3313-7606-3E3C-BAB20E129506</keyObject>
+<referredKeyID>0DA03187-3313-7606-3E3C-BAB20E129506</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_uwb</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

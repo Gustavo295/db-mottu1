@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21A4B3A3-A915-1B58-F3EC-D97DEE11BD6F" name="FILIAL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>2EE938C0-37B8-0659-0462-4D8C2B31D855</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_filial" id="53652195-B2CD-1E71-93D0-3A612A81C9D4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>7400B7D9-37F0-7FAB-32DE-62CC9D7794ED</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="64DFD81D-E64D-8649-BC81-CEBDD3EB05A2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>63F604BF-5B5D-6481-5817-61E6D0D05B52</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="D154FA84-9B04-724D-0A82-846C082B6BD7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>E41A3AD9-924C-FBD4-1605-BD6D1090EE1B</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="E80FB169-D9B7-8150-CBFD-4790B53F35C9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>B3C11CA8-544A-2D09-891D-2EFB7DB4157A</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_id_endereco" id="E49EC139-23F7-AADB-C500-D5B2ECE39601">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>5E6CE031-58F9-A86F-B26B-150B64292E1E</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F508883-5A56-49AD-85B6-AF7514458563" referredColumn="D8D7A48C-9CA5-AB76-EA1E-64032175AB6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EF1612C-2AA5-946D-6FC4-162ABB37EFAB" name="FILIAL_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>18AC4C8B-825A-3196-D71B-0521541127B2</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53652195-B2CD-1E71-93D0-3A612A81C9D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E04491B5-0481-B9CC-9F4A-3CF81FACF369" name="FILIAL__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D6531112-0F86-2438-F37D-EB7347616F43</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E49EC139-23F7-AADB-C500-D5B2ECE39601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3293CDC-AC00-E4A7-CA56-110086436C21" name="FILIAL_ENDERECO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<generatorID>D6531112-0F86-2438-F37D-EB7347616F43</generatorID>
+<ownerDesignName>modelo-r-l</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49EC139-23F7-AADB-C500-D5B2ECE39601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
