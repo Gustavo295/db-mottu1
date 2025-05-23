@@ -53,9 +53,9 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_localizacao" id="6690F09B-2BC1-FC50-7C03-B51F1FFFE958">
+<Attribute name="id_localizacao" id="3D9F0B0D-AC36-B3E7-B3BD-219EE3420B64">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-23 12:42:09 UTC</createdTime>
+<createdTime>2025-05-23 14:34:22 UTC</createdTime>
 <generatorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</generatorID>
 <ownerDesignName>modelo-r-l</ownerDesignName>
 <engineerTo>
@@ -73,8 +73,9 @@
 <createdBy>labsfiap</createdBy>
 <createdTime>2025-05-23 12:19:22 UTC</createdTime>
 <ownerDesignName>modelo-r-l</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

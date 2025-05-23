@@ -110,8 +110,9 @@
 <createdBy>labsfiap</createdBy>
 <createdTime>2025-05-23 11:49:46 UTC</createdTime>
 <ownerDesignName>modelo-r-l</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="true"/>
+<item key="E4583BB4-A715-63E0-2573-10D1AE1F421B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

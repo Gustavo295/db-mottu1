@@ -43,10 +43,10 @@
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LOCALIZACAO_id_localizacao" id="E2B5130C-B33E-53D3-0F97-E596D06989D8">
+<Column name="LOCALIZACAO_id_localizacao" id="C52D6641-FB52-8F01-26A9-5A34FC8F0F7C">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-23 13:15:12 UTC</createdTime>
-<generatorID>6690F09B-2BC1-FC50-7C03-B51F1FFFE958</generatorID>
+<createdTime>2025-05-23 14:34:31 UTC</createdTime>
+<generatorID>3D9F0B0D-AC36-B3E7-B3BD-219EE3420B64</generatorID>
 <ownerDesignName>modelo-r-l</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,7 +55,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6AF5C10A-E3DD-90E5-771C-4574ADDC323F" referredColumn="F17CEC24-5BDE-F2A1-06DA-CEC1E44D0581"/>
+<colAssociation fkAssociation="A48DC195-FFA0-F120-AEED-A17642AF590E" referredColumn="F17CEC24-5BDE-F2A1-06DA-CEC1E44D0581"/>
 </associations>
 </Column>
 </columns>
@@ -72,26 +72,26 @@
 <colUsage columnID="C43B978A-2DCC-8305-93AD-84EB81F6641E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="763A6DED-B5F0-A904-E1DA-4316573AE0D0" name="UWB__IDX">
+<ind_PK_UK id="99D89A73-ACC4-D610-0589-260C35B73570" name="UWB__IDXv1">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<createdTime>2025-05-23 14:34:31 UTC</createdTime>
 <ownerDesignName>modelo-r-l</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="E2B5130C-B33E-53D3-0F97-E596D06989D8"/>
+<colUsage columnID="C52D6641-FB52-8F01-26A9-5A34FC8F0F7C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A28A6A83-30B3-153C-7164-C9EC02E1ADDF" name="UWB_LOCALIZACAO_FK">
+<ind_PK_UK id="3453CD5C-4B94-9CE5-93D5-E794F66C7D09" name="UWB_LOCALIZACAO_FK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-23 13:15:12 UTC</createdTime>
+<createdTime>2025-05-23 14:34:31 UTC</createdTime>
 <generatorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</generatorID>
 <ownerDesignName>modelo-r-l</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E2B5130C-B33E-53D3-0F97-E596D06989D8"/>
+<colUsage columnID="C52D6641-FB52-8F01-26A9-5A34FC8F0F7C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

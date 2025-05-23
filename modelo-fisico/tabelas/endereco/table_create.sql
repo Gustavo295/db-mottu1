@@ -1,7 +1,11 @@
-CREATE TABLE condicao (
-    id_condicao INTEGER NOT NULL,
-    nome        VARCHAR2(15) NOT NULL,
-    cor         VARCHAR2(15) NOT NULL
+CREATE TABLE endereco (
+    id_endereco INTEGER NOT NULL,
+    numero      INTEGER NOT NULL,
+    cep         VARCHAR2(9) NOT NULL,
+    estado      VARCHAR2(20) NOT NULL,
+    cidade      VARCHAR2(30) NOT NULL,
+    bairro      VARCHAR2(50) NOT NULL,
+    logradouro  VARCHAR2(60) NOT NULL
 );
 
-ALTER TABLE condicao ADD CONSTRAINT condicao_pk PRIMARY KEY ( id_condicao );
+ALTER TABLE endereco ADD CONSTRAINT endereco_pk PRIMARY KEY ( id_endereco );

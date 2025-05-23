@@ -2,6 +2,6 @@ condicao
 endereco
 filial
 localizacao
-moto
-patio
 uwb
+patio
+moto

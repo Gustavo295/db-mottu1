@@ -1,7 +1,13 @@
-CREATE TABLE condicao (
-    id_condicao INTEGER NOT NULL,
-    nome        VARCHAR2(15) NOT NULL,
-    cor         VARCHAR2(15) NOT NULL
+CREATE TABLE uwb (
+    id_uwb                     INTEGER NOT NULL,
+    codigo                     VARCHAR2(40) NOT NULL,
+    status                     VARCHAR2(15) NOT NULL,
+    localizacao_id_localizacao INTEGER NOT NULL
 );
 
-ALTER TABLE condicao ADD CONSTRAINT condicao_pk PRIMARY KEY ( id_condicao );
+CREATE UNIQUE INDEX uwb__idx ON
+    uwb (
+        localizacao_id_localizacao
+    ASC );
+
+ALTER TABLE uwb ADD CONSTRAINT uwb_pk PRIMARY KEY ( id_uwb );

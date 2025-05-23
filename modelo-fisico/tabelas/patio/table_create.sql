@@ -1,7 +1,9 @@
-CREATE TABLE condicao (
-    id_condicao INTEGER NOT NULL,
-    nome        VARCHAR2(15) NOT NULL,
-    cor         VARCHAR2(15) NOT NULL
+CREATE TABLE patio (
+    id_patio         INTEGER NOT NULL,
+    qtd_moto         INTEGER NOT NULL,
+    area_patio       INTEGER NOT NULL,
+    capacidade_moto  INTEGER NOT NULL,
+    filial_id_filial INTEGER NOT NULL
 );
 
-ALTER TABLE condicao ADD CONSTRAINT condicao_pk PRIMARY KEY ( id_condicao );
+ALTER TABLE patio ADD CONSTRAINT patio_pk PRIMARY KEY ( id_patio );

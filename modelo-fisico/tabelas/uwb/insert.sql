@@ -1,0 +1,10 @@
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (1, '93c88d61-3173-4aa2-9b1f-02832feba9c0', 'Quebrado', 1);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (2, 'afd7226e-83d9-49ad-900a-fa812d376650', 'Ativada', 2);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (3, 'ff8a4167-efec-48b4-b0e5-82d2da44b2e4', 'Ativada', 3);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (4, '202c7600-670e-4342-b1a7-942dbcd95808', 'Ativada', 4);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (5, '644446ef-d939-4abc-87b7-98cb73f72cb8', 'Desativada', 5);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (6, '6794ec26-b3f6-40a1-ada2-a62a81aa0754', 'Ativada', 6);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (7, '92340fc9-181d-4c80-9050-bee9da9b6f13', 'Ativada', 7);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (8, '05f4ed8c-1945-4f32-a686-f3bd2abb285e', 'Ativada', 8);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (9, '05130adb-8ae0-4abf-b763-12477b1db2d3', 'Ativada', 9);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (10, 'db757614-2f06-4d99-aacb-0fadbd371844', 'Ativada', 10);

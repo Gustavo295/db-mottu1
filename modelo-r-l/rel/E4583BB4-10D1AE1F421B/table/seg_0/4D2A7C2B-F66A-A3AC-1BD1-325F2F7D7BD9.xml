@@ -63,9 +63,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D72AB2CB-6D0A-47AD-9758-D6D4DDBC3655" referredColumn="C43B978A-2DCC-8305-93AD-84EB81F6641E"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -88,17 +85,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="74665EEA-CDB1-8B7D-373D-08D97F177AD6"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="9F425EEB-7DFA-0B64-972B-6043D66BCE07" name="LOCALIZACAO_UWB_FK">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-23 13:15:12 UTC</createdTime>
-<generatorID>1A6653DF-07C1-F054-DBE2-842E32FEF4A3</generatorID>
-<ownerDesignName>modelo-r-l</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="74665EEA-CDB1-8B7D-373D-08D97F177AD6"/>
 </indexColumnUsage>
