@@ -7,4 +7,4 @@ insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (6, 
 insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (7, '92340fc9-181d-4c80-9050-bee9da9b6f13', 'Ativada', 7);
 insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (8, '05f4ed8c-1945-4f32-a686-f3bd2abb285e', 'Ativada', 8);
 insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (9, '05130adb-8ae0-4abf-b763-12477b1db2d3', 'Ativada', 9);
-insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (10, 'db757614-2f06-4d99-aacb-0fadbd371844', 'Ativada', 10);
+insert into UWB (id_uwb, codigo, status, localizacao_id_localizacao) values (10, 'db757614-2f06-4d99-aacb-0fad371844', 'Ativada', 10);

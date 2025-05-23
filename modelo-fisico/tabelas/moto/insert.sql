@@ -1,10 +1,10 @@
 insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (1, 'TBP-6S40', 'RL', 1, 1, 1);
 insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (2, 'CNV-5J05', 'SLK-Class', 2, 2, 2);
 insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (3, 'ZXO-1B35', 'F150', 3, 3, 3);
-insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (4, 'DGU-1R66', 'Escort', 4, 4, 4);
-insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (5, 'EKH-9S96', '911', 5, 5, 5);
-insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (6, 'XLQ-5Z50', 'Elantra', 6, 6, 6);
-insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (7, 'LJS-7Z48', 'Virage', 7, 7, 7);
-insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (8, 'XVP-9B71', 'V8 Vantage', 8, 8, 8);
-insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (9, 'KWC-8F50', 'GTI', 9, 9, 9);
-insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (10, 'MHI-8Y10', 'Th!nk', 10, 10, 10);
+insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (4, 'DGU-1R66', 'Escort', 4, 4, 2);
+insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (5, 'EKH-9S96', '911', 5, 5, 2);
+insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (6, 'XLQ-5Z50', 'Elantra', 6, 6, 2);
+insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (7, 'LJS-7Z48', 'Virage', 7, 7, 2);
+insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (8, 'XVP-9B71', 'V8 Vantage', 8, 8, 2);
+insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (9, 'KWC-8F50', 'GTI', 9, 9, 3);
+insert into MOTO (id_moto, placa, modelo, patio_id_patio, uwb_id_uwb, condicao_id_condicao) values (10, 'MHI-8Y10', 'Th!nk', 10, 10, 2);

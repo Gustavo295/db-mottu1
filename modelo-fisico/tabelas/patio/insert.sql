@@ -47,4 +47,3 @@ insert into PATIO (id_patio, qtd_moto, area_patio, capacidade_moto, filial_id_fi
 insert into PATIO (id_patio, qtd_moto, area_patio, capacidade_moto, filial_id_filial) values (47, 45, 113, 101, 47);
 insert into PATIO (id_patio, qtd_moto, area_patio, capacidade_moto, filial_id_filial) values (48, 7, 100, 85, 48);
 insert into PATIO (id_patio, qtd_moto, area_patio, capacidade_moto, filial_id_filial) values (49, 52, 43, 107, 49);
-insert into PATIO (id_patio, qtd_moto, area_patio, capacidade_moto, filial_id_filial) values (50, 79, 369, 99, 50);

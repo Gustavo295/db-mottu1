@@ -1,10 +1,10 @@
 insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (1, '08-Jun-2024', 6.65, 9.92, 1);
-insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (2, '05-Dec-2024', 2.48, 5.19, 2);
+insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (2, '05-Dez-2024', 2.48, 5.19, 2);
 insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (3, '10-Jun-2024', 8.35, 1.98, 3);
 insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (4, '16-Nov-2024', 8.54, 7.98, 4);
-insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (5, '03-Dec-2024', 6.41, 6.87, 5);
+insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (5, '03-Dez-2024', 6.41, 6.87, 5);
 insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (6, '02-Jul-2024', 5.01, 4.22, 6);
 insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (7, '28-Mar-2025', 2.98, 9.05, 7);
-insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (8, '11-Sep-2024', 7.32, 5.09, 8);
+insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (8, '11-Set-2024', 7.32, 5.09, 8);
 insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (9, '14-Jul-2024', 2.63, 4.51, 9);
 insert into LOCALIZACAO (id_localizacao, timestamp, x_coord, y_coord, uwb_id_uwb) values (10, '24-Jun-2024', 9.38, 3.97, 10);
